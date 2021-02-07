@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationMap": false,
+    "declarationDir": "./types",
+    "downlevelIteration": true,
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "strict": true,
+    "esModuleInterop": true,
+    "typeRoots": [],
+    "lib": [
+      "es2018",
+      "dom",
+      "scripthost"
+    ],
+    "paths": {
+    }
+  }
+}
