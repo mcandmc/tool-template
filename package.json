@@ -1,9 +1,9 @@
 {
-  "name": "xxx",
+  "name": "{{ project_name }}",
   "version": "0.0.1",
-  "description": "xxx",
-  "main": "lib/xxx.umd.js",
-  "module": "lib/xxx.esm.js",
+  "description": "{{ description }}",
+  "main": "lib/{{ project_name }}.umd.js",
+  "module": "lib/{{ project_name }}.esm.js",
   "typings": "types/index.d.ts",
   "scripts": {
     "format": "prettier --write .",
